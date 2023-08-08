@@ -1,0 +1,126 @@
+.app__about{
+    width: 100%;
+    animation-delay: 1s ease-in ease-out;
+}
+
+.app__about-header{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.app__about-header h1{
+    font-size: 3rem;
+    color: white;
+    font-family: Raleway;
+}
+
+.app__about-content{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.app__leftside{
+   border:0.4rem solid white ;
+   border-radius: 0.5rem;
+   height: 1800px;
+   margin-left: 12rem;
+   margin-top: 6rem;
+}
+
+.app__top{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+}
+
+.app__rightside{
+    margin-top:6rem ;
+    margin-left: 2rem;
+}
+
+.app__content-information:hover{
+    border: 1px solid #ffffff3a;
+    padding: 0 2rem;
+    transition: 0.3 ease-in-out;
+    box-shadow: 100px solid #fff;
+}
+
+.app__lft{
+    display: flex;
+    margin-top: 2rem;
+}
+
+.app__lft img{
+    margin-right: 1rem;
+}
+
+
+.app__lft h1{
+    color: #fff;
+    font-family: Raleway;
+    z-index: 200;
+}
+
+.app__content-information{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    z-index: 200;
+}
+
+.app__content-information p{
+    color: #fff;
+    font-family: Raleway;
+    margin-top: 2rem;
+    line-height: 60px;
+    max-width: 80%;
+    text-align: left;
+    font-weight: 500;
+    font-size: 2rem;
+    z-index: 400;
+}
+
+
+@media screen and (max-width:1000px) {
+    .app__leftside{
+        border:0.4rem solid white ;
+        border-radius: 0.5rem;
+        height: 2500px;
+        margin-left: 1rem;
+        margin-top: 6rem;
+     }
+
+     .app__content-information p{
+        color: #fff;
+        font-family: Raleway;
+        margin-top: 2rem;
+        line-height: 60px;
+        max-width: 80%;
+        text-align: left;
+        font-weight: 500;
+        font-size: 1.4rem;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .app__leftside{
+        border:0.4rem solid white ;
+        border-radius: 0.5rem;
+        height: 3100px;
+        margin-left: 1rem;
+        margin-top: 6rem;
+     }
+
+     .app__content-information p{
+        color: #fff;
+        font-family: Raleway;
+        margin-top: 2rem;
+        line-height: 40px;
+        max-width: 90%;
+        text-align: left;
+        font-weight: 500;
+        font-size: 1.4rem;
+    }
+}

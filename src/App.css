@@ -1,0 +1,49 @@
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.section__padding{
+  padding: 3rem 4rem;
+  z-index: 100;
+}
+
+
+
+.shishakan{
+  position: absolute;
+  width: 100%;
+  height: 200vh;
+  z-index: -0.5;
+
+}
+
+
+.dark{
+  background-color: #1E2022;
+  color: white;
+}
+
+.light{
+  background-color:white ;
+  color: #1E2022;
+}
+
+
+
+
+@media screen and (max-width:900px) {
+  .section__padding{
+    padding: 2rem 1rem;
+  }
+}
+
+
+@media screen and (max-width:600px) {
+  .section__padding{
+    padding: 2rem 1rem;
+  }
+}
